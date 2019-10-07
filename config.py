@@ -7,7 +7,7 @@ parser.add_argument("--load_model_path", type=str, default=r'saved_models\#C005-
 
 parser.add_argument("--epoch", type=int, default=0, help="epoch to start training from")
 parser.add_argument("--n_epochs", type=int, default=400, help="number of epochs of training")
-parser.add_argument("--dataset_path", type=str, default=r"dataset\wound_20190620", help="name of the dataset")
+parser.add_argument("--dataset_path", type=str, default=r"dataset/csv_and_image", help="name of the dataset")
 parser.add_argument("--batch_size", type=int, default=1, help="size of the batches")
 '''---------------------------------------------add new code --------------------------------------------'''
 parser.add_argument("--val_batch_size", type=int, default=1, help="size of the validation batches")
